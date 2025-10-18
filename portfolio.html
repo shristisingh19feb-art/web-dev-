@@ -1,0 +1,113 @@
+<!--
+Project Name: Personal Portfolio Website
+Page: index.html
+Author: Shrishti Singh
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrishti Singh | Portfolio</title>
+</head>
+<body>
+
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="hero">
+            <h2>Hello, I'm Shristi Singh</h2>
+            <p>A passionate student learning web development and exploring creative digital design.</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="image.jpg" alt="Profile picture of Shristi Singh" width="200">
+            <p>
+                I am a 17-year-old student pursuing PCM in Class 12th. I love building creative and functional
+                web pages. This portfolio showcases my learning journey in web development.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website:</strong> A simple, responsive personal website using HTML.</li>
+                <li><strong>Student Management Page:</strong> Created a basic student list using HTML tables.</li>
+                <li><strong>Recipe Blog:</strong> Designed a one-page blog layout for cooking lovers.</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Proficiency Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shristi Singh | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
